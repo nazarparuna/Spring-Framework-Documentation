@@ -1,34 +1,38 @@
-## Spring Framework Documentation
+### Spring Framework Documentation
 Version 5.2.2.RELEASE
 
+---
+## Зміст
 
 **[Загальний огляд](overview/)**	
-історія, підхід до дизайну, відгуки, як почати.
+Історія, підхід до дизайну, відгуки, як почати.
 
-**[Core]()**	
-IoC Container, Events, Resources, i18n, Validation, Data Binding, Type Conversion, SpEL, AOP.
+**[Ядро фреймворку](core/)**	
+IoC контейнер, події, ресурси, інтернаціоналізація(i18n), валідація, зв'язування даних, конвертація типів, SpEL, AOP.
 
-**[Testing]()**	
-Mock Objects, TestContext Framework, Spring MVC Test, WebTestClient.
+**[Тестування](testing/)**	
+Mock об'єкти, TestContext Framework, Spring MVC Test, WebTestClient.
 
-**[Data Access]()**	
-Transactions, DAO Support, JDBC, O/R Mapping, XML Marshalling.
+**[Доступ до даних](data-access/)**	
+Транзакції, підтримка DAO, JDBC, O/R Mapping, XML Marshalling.
 
-**[Web Servlet]()**	
-Spring MVC, WebSocket, SockJS, STOMP Messaging.
+**[Web Сервлети](web-servlet/)**	
+Spring MVC, веб-сокети, SockJS, STOMP Messaging.
 
-**[Web Reactive]()**	
+**[Web Reactive](web-reactive/)**	
 Spring WebFlux, WebClient, WebSocket.
 
-**[Integration]()**
-Remoting, JMS, JCA, JMX, Email, Tasks, Scheduling, Caching.
+**[Інтерграція](integration/)**
+Remoting, JMS, JCA, JMX, Email, задачі, планування, кешування.
 
-**[Languages]()**
-Kotlin, Groovy, Dynamic Languages.
+**[Мови](languages/)**
+Kotlin, Groovy, динамічні мови.
 
-### Ліцензія (License)
+## Автори оригіналу
 
 Rod Johnson, Juergen Hoeller, Keith Donald, Colin Sampaleanu, Rob Harrop, Thomas Risberg, Alef Arendsen, Darren Davison, Dmitriy Kopylenko, Mark Pollack, Thierry Templier, Erwin Vervaet, Portia Tung, Ben Hale, Adrian Colyer, John Lewis, Costin Leau, Mark Fisher, Sam Brannen, Ramnivas Laddad, Arjen Poutsma, Chris Beams, Tareq Abedrabbo, Andy Clement, Dave Syer, Oliver Gierke, Rossen Stoyanchev, Phillip Webb, Rob Winch, Brian Clozel, Stephane Nicoll, Sebastien Deleuze, Jay Bryant
+
+## Ліцензія (License)
 
 Copyright © 2002 - 2019 Pivotal, Inc. All Rights Reserved.
 
