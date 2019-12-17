@@ -1,7 +1,3 @@
-### Spring Framework Documentation
-Version 5.2.2.RELEASE
-
----
 ## Зміст
 
 **[Загальний огляд](overview/)**	
