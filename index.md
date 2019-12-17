@@ -2,8 +2,8 @@
 Version 5.2.2.RELEASE
 
 
-**[Overview](overview/index.md)**	
-history, design philosophy, feedback, getting started.
+**[Загальний огляд](overview/)**	
+історія, підхід до дизайну, відгуки, як почати.
 
 **[Core]()**	
 IoC Container, Events, Resources, i18n, Validation, Data Binding, Type Conversion, SpEL, AOP.
