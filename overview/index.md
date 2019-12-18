@@ -25,6 +25,32 @@ Spring Framework розділений на модулі. Програми мож
 
 ## Історія Spring'а та Spring фреймворку
 
+Spring з'явився на світ у 2003 році як відповідь на складність ранніх специфікацій J2EE. Хоча деякі вважають, що Java EE і Spring є конкурентами, але Spring фактично доповнює Java EE. Модель програмування Spring не копіює множину специфікацій платформи Java EE; швидше інтегрується з ретельно підібраними індивідуальними специфікаціями з корзини EE:
+
+* Servlet API ([JSR 340](https://jcp.org/en/jsr/detail?id=340))
+
+* WebSocket API ([JSR 356](https://jcp.org/en/jsr/detail?id=356))
+
+* Concurrency Utilities ([JSR 236](https://jcp.org/en/jsr/detail?id=236))
+
+* JSON Binding API ([JSR 367](https://jcp.org/en/jsr/detail?id=367))
+
+* Bean Validation ([JSR 303](https://jcp.org/en/jsr/detail?id=303))
+
+* JPA ([JSR 338](https://jcp.org/en/jsr/detail?id=338))
+
+* JMS ([JSR 914](https://jcp.org/en/jsr/detail?id=914))
+
+* а також JTA / JCA налаштування для координації транзакцій, якщо це необхідно.
+
+Spring Framework також підтримує специфікації вживлення залежностей ([JSR 330](https://jcp.org/en/jsr/detail?id=330)) та загальні анотації ([JSR 250](https://jcp.org/en/jsr/detail?id=250)), які розробники додатків можуть вибрати замість специфічних механізмів, передбачених в Spring Framework.
+
+Станом на Spring Framework 5.0, Spring вимагає як мінімум версії Java EE 7 (наприклад, Servlet 3.1+, JPA 2.1+), і одночасно забезпечує інтеграцію з коробки із новішими API на рівні Java EE 8 (наприклад, Servlet 4.0, JSON Binding API), коли виконується в рантаймі. Це робить Spring повністю сумісним, наприклад, з Tomcat 8 і 9, WebSphere 9 і JBoss EAP 7.
+
+З часом роль Java EE  в розробці додатків стала еволюціонувати. У перші дні Java EE та Spring були створені, як додатки для розміщення на сервері додатків. Сьогодні, за допомогою Spring Boot, програми створюються в devops-хмарному режимі, причому контейнер Servlet вбудовується і його легко змінювати. Станом на Spring Framework 5, додаток WebFlux навіть не використовує API сервлетів безпосередньо та може працювати на серверах (таких як Netty), які не є контейнерами сервлетів.
+
+Spring продовжує додавати інновації та розвивається. Поза межами Spring Framework, існують інші проекти, такі як Spring Boot, Spring Security, Spring Data, Spring Cloud, Spring Batch. Важливо пам’ятати, що кожен проект має власне сховище вихідного коду, трекер питань та проблем та каденцію випуску. Дивіться https://spring.io/projects для повного переліку проектів Spring.
+
 ## Підхід до дизайну
 
 ## Відгуки та пропозиції
